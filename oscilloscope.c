@@ -1,7 +1,7 @@
-#include "xc.h"
-#include "init.h"
-#include "LIBPIC30.h"
-#include "math.h"
+#include "xc.h"         //Librairie de base
+#include "init.h"       //Code d'initialisation fournit
+#include "LIBPIC30.h"   //Librairie du DsPIC
+#include "math.h"       //Math (juste pour la fonction init_clock_smart)
 
 void init_led(void){
     //Initialise les pins en output pour les led
